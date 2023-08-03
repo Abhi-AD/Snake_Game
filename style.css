@@ -1,0 +1,24 @@
+ul{
+	left:-42px;
+	position:relative;
+	list-style-type:none;
+}
+
+ul li{
+	display:inline;
+}
+
+#drawing{
+	width:600px;
+	height:520px;
+	margin:auto;
+}
+
+#canvas{
+	border:1px solid #000;
+	background-color:#fff;
+}
+
+#canvas:hover{
+	cursor: url('../cursor/cursor.cur'), auto;
+}
